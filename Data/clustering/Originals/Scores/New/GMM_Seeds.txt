@@ -1,0 +1,4 @@
+factor 2 noreg (NMI,ARI) 0.8(0.0) 0.83(0.0)
+factor 2 reg1log (NMI,ARI) 0.89(0.0) 0.92(0.0)
+factor 3 noreg (NMI,ARI) 0.45(0.0) 0.38(0.0)
+factor 3 reg1log (NMI,ARI) 0.89(0.0) 0.92(0.0)
