@@ -1,4 +1,4 @@
-This repo contains my bachelor's thesis, its supplementary material and the code for the autoencoder.
+This repository contains my bachelor's thesis, its supplementary material and the code for the autoencoder.
 
 formulation1log function in Scripts/Regularizers_Geod: Contains the implementation of the proposed regularizer
 
