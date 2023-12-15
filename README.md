@@ -1,4 +1,5 @@
 This repository contains my bachelor's thesis, its supplementary material and the code for the autoencoder.
+Some of the datasets for testing classification couldn't be uploaded due to file size limits. They can be downloaded from the UCI-ML repository. 
 
 formulation1log function in Scripts/Regularizers_Geod: Contains the implementation of the proposed regularizer
 
