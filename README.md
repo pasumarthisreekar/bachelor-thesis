@@ -1,4 +1,5 @@
 This repository contains my bachelor's thesis, its supplementary material and the code for the autoencoder.
+
 formulation1log function in Scripts/Regularizers_Geod: Contains the implementation of the proposed regularizer
 
 create_geodesic_matrix function in Scripts/geodist: Contains the implementation for calculating the geodesic distance on the original dataset
