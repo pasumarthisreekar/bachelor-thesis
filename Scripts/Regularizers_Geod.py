@@ -84,7 +84,6 @@ def sammons_stress(X_geod, X_d2, p):
         denom = denom + torch.sum(dist_1j)
         
     return torch.div(error, denom)
-#-------------change-------------
 def formulation1log(X_geod_batch,x_latent,p):
     X_geod_batch_indices = torch.triu_indices(X_geod_batch.size()[0],X_geod_batch.size()[0],offset=1)
     X_geod_batch = X_geod_batch[X_geod_batch_indices[0],X_geod_batch_indices[1]]
