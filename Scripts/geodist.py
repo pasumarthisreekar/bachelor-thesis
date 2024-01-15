@@ -70,7 +70,6 @@ def calc_geodesic_dists(weight_matrix):
     return geodesic_weights
 
 
-#changed the function
 def create_geodesic_matrix(X, n_neighbors):
     nbrs_ = NearestNeighbors(n_neighbors=n_neighbors)  
     nbrs_.fit(X)
@@ -81,13 +80,6 @@ def create_geodesic_matrix(X, n_neighbors):
             )
     n_connected_components, labels = connected_components(nbg)
     print("connected", n_connected_components)
-    #nbg = _fix_connected_components(
-       #         X=nbrs_._fit_X,
-       #         graph=nbg,
-         #       n_connected_components=n_connected_components,
-          #      component_labels=labels,
-           #     mode="distance",
-           # )
     X = nbrs_._fit_X
     nbg = _fix_connected_components(
                 X=nbrs_._fit_X,
